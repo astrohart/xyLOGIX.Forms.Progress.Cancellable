@@ -84,5 +84,15 @@
   <ItemGroup>
     <Content Include="1382_cogs.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\xyLOGIX.Forms.Progress.Cancellable.Events\xyLOGIX.Forms.Progress.Cancellable.Events.csproj">
+      <Project>{5b614170-01f2-45a1-bc13-09a150c8671d}</Project>
+      <Name>xyLOGIX.Forms.Progress.Cancellable.Events</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\xyLOGIX.Forms.Progress.Cancellable.Interfaces\xyLOGIX.Forms.Progress.Cancellable.Interfaces.csproj">
+      <Project>{b98d1ec9-c87a-4df8-bf1e-1e9675ab116a}</Project>
+      <Name>xyLOGIX.Forms.Progress.Cancellable.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
